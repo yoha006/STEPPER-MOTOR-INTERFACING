@@ -36,14 +36,9 @@ For running the stepper motor in clockwise and anticlockwise directions:
 
 ## SWITCHING SEQUENCE OF STEPPER MOTOR
 
-| Memory Location | A1 | A2 | B1 | B2 | Hex Code |
-|-----------------|----|----|----|----|----------|
-| 1200            | 1  | 0  | 0  | 0  | 09H      |
-| 1201            | 0  | 1  | 0  | 1  | 05H      |
-| 1202            | 0  | 1  | 1  | 0  | 06H      |
-| 1203            | 1  | 0  | 1  | 0  | 0AH      |
+![WhatsApp Image 2026-02-13 at 11 32 12 AM](https://github.com/user-attachments/assets/6fb8db47-6edf-46e0-a111-bad9a423d623)
 
----
+
 
 ## PROGRAM
 
@@ -70,6 +65,8 @@ L1:      DEC DX
 DATA:    DB 09H, 05H, 06H, 0AH ; Array of data
 ```
 ## OUTPUT OF THE PROGRAM:
+![WhatsApp Image 2026-02-13 at 11 31 38 AM](https://github.com/user-attachments/assets/91b2045d-6c5b-4f77-9d3a-cdcb34f1ffb1)
+
 
 ## RESULT
 
